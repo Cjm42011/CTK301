@@ -1,0 +1,33 @@
+/* this is a stylesheet :D */ 
+p {
+  color: #8cbb86;
+  background-color: #b84032
+}
+
+.specialp {
+    color:#780c64;
+    background-color: #a4849e;
+}
+
+#specialid {
+color: #060;
+background-color: bisque;
+}
+
+ a:link{
+color: red;
+ }
+
+ a:visited{
+color:green;
+ }
+
+ a:active{
+color:red;
+
+ }
+
+ a:hover{
+color:yellow;
+
+ }
