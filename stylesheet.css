@@ -10,7 +10,7 @@ p {
 }
 
 #specialid {
-color: #060;
+color:orange;
 background-color: bisque;
 }
 
@@ -31,3 +31,22 @@ color:red;
 color:yellow;
 
  }
+
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: orange;
+  font-weight: 12px
+}
+
+.customtext {
+  font-family: Arial, Helvetica, sans-serif ;
+  font-style: normal;
+  font-weight: bold;
+} 
+.imgbox {
+  border: 10px solid black;
+  padding: 10px;
+  background-color: yellow;
+}
+
