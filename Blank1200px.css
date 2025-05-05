@@ -2,6 +2,10 @@ body {
   background-color: #999999;
   font-family: "Montagu Slab", serif;
   background: linear-gradient (to bottom, #2e1e1e, #5b3b3b);
+  background-image: url(images.jpeg);
+  color:white;
+  font-weight: bold;
+  background-color: rebeccapurple;
 }
 
 h1 {
@@ -11,12 +15,15 @@ h1 {
   background-color: green;
 }
 
+.resize{width: 300px; 
+  height:auto;}
+
 #gallery {
   grid-column: span 12;
 }
 
 #box {
-  width: 890px;
+  width: 600px;
   position: relative;
 }
 
@@ -37,7 +44,6 @@ h1 {
   position: absolute;
   top: 0;
   left: 40%;
-  text-emphasis-color: white;
   background-color: rgba(173, 216, 230, 0.474);
   padding: 0em;
   margin-left: 10px;
@@ -51,40 +57,11 @@ h1 {
 }
 
 
-#myCarousel {
-  margin-bottom: 24px;
-  grid-column: span 12;
-}
-
-#myCarousel .f-carousel__slide {
-  text-align: center;
-  padding: 24px;
-  background: #eee;
-  grid-column: span 12;
-}
-
-.f-carousel {
-  --f-button-width: 38px;
-  --f-button-height: 38px;
-
-  --f-button-svg-width: 16px;
-  --f-button-svg-height: 16px;
-  --f-button-svg-stroke-width: 2.5;
-
-  --f-button-color: rgb(71 85 105);
-  --f-button-border-radius: 50%;
-  --f-button-shadow: 0 6px 12px -2px rgb(50 50 93 / 25%), 0 3px 7px -3px rgb(0 0 0 / 30%);
-
-  --f-button-bg: #fff;
-  --f-button-hover-bg: #f9f9f9;
-  --f-button-active-bg: #f0f0f0;
-  grid-column: span 12;
-}
 
 #wrapper {
   margin: 24px auto;
   font-family: "Montagu Slab", serif;
-  width: 1200px;
+  width: 400px;
   border: 1px solid black;
   padding: 24px;
   background-color: #ffffff;
